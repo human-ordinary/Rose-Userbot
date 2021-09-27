@@ -80,6 +80,20 @@ async def typewriter(typew):
     await typew.edit("**HAHAHAHA**")
 # Create by myself @localheart
 
+
+@register(outgoing=True, pattern='^.zee(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(1)
+    await typew.edit("**𝘠𝘌𝘏 𝘓𝘜 𝘒𝘈𝘎𝘈 𝘒𝘌𝘙𝘌𝘕**")
+    sleep(1)
+    await typew.edit("**𝘒𝘈𝘓𝘖 𝘉𝘌𝘓𝘜𝘔 𝘒𝘌𝘕𝘈𝘓 𝘡𝘌𝘌**")
+    sleep(1)
+    await typew.edit("**𝘊𝘜𝘔𝘈𝘕 𝘡𝘌𝘌 𝘠𝘈𝘕𝘎 𝘗𝘈𝘓𝘐𝘕𝘎 𝘚𝘜𝘊𝘐**")
+    sleep(2)
+    await typew.edit("**𝘠𝘈𝘏𝘈𝘏𝘈𝘏𝘈**")
+
+
 CMD_HELP.update({
     "toxic2":
     "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.ngentot`\
