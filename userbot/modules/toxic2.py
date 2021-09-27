@@ -102,4 +102,6 @@ CMD_HELP.update({
     \n↳ : Lu Coba Sendiri Aja."
     "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.ngatain`\
     \n↳ : Lu Coba Sendiri Aja."
+    "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.zee`\
+    \n↳ : Lu Coba Sendiri Aja."
 })
